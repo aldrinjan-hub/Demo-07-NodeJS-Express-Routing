@@ -12,7 +12,7 @@ app.listen(PORT, () =>
 
 //homepage
 app.get('/', (request, response) => {
-  response.send('<h1>Welcome to the API: Aldrin Quitalig' </h1>');
+  response.send('<h1>Welcome to the API: Aldrin Quitalig </h1>');
 });
 
 const customerRouter=require('./routes/customer');
