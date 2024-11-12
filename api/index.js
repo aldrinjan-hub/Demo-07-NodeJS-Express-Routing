@@ -11,12 +11,9 @@ app.listen(PORT, () =>
 });
 
 //homepage
-app.get('/', (request,response) =>
-{
-    response.status(200).json({message: 'API Homepage'});
-
+app.get('/', (request, response) => {
+  response.status(200).json({ message: 'Welcome to the API: Aldrin Quitalig'
 });
-
 
 const customerRouter=require('./routes/customer');
 app.use('/customers', customerRouter);
